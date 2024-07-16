@@ -6,9 +6,9 @@ import java.sql.SQLException;
 import java.util.Scanner;
 
 public class StudentRecords {
-    private static final String url = "jdbc:mysql://localhost:3306/mydb";
+    private static final String url = "";
     private static final String user = "root";
-    private static final String password = "Gangadhar@12345";
+    private static final String password = "********";
     public static void main(String[] args) {
         try{
             Connection connection = DriverManager.getConnection(url,user,password);
